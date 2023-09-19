@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-header {
+    background-color: rgb(231 231 231);
+}
+
+.intro-gmail-icon a {
+    font-size: 19px;
+    text-decoration: none;
+    color: gray;
+    align-items: center;
+    display: flex;
+}
+
+.intro-social-icon a {
+    color: gray;
+    text-decoration: none;
+}
+
+.intro-social-icon .phone-no {
+    color: #ffff;
+}
+
+.intro-bg {
+    background: url("./images/intro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    transition: ease-in-out 2s;
+    transition-timing-function: linear;
+}
+
+
+/* .intro-bg:hover {
+    background-color: rgb(24, 3, 118);
+    opacity: 0.5;
+    transition: ease-in-out 3s;
+} */
+
+.navbar-bg {
+    background-color: rgb(249, 249, 249);
+}
+
+.navbar-brand {
+    color: #180376 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #180376;
+}
+
+.intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreabout-btn {
+    background: #180376;
+    color: #ffff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.moreabout-btn:hover {
+    background-color: #de1afb;
+    transition: ease-in-out 2s;
+}
+
+.social-icon:hover {
+    color: #de1afb;
+    font-size: 35px !important;
+    transition: ease-in-out 1s;
+}
