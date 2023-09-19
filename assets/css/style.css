@@ -53,6 +53,13 @@
     color: #180376;
 }
 
+.nav-item:hover {
+    height: 2px;
+    background-color: #de1afb;
+    transition: ease-in-out 2s;
+    font-weight: 600;
+}
+
 .intro-content {
     display: flex;
     align-items: center;
